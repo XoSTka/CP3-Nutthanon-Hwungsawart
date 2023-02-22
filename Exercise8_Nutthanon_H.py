@@ -1,6 +1,4 @@
 '''
-หากสำเร็จ โปรแกรมจะขึ้นหน้าต้อนรับและแสดงรายการสินค้าพร้อมราคา (ผู้เรียนกำหนดเอง)
-
 เมื่อเลือกสินค้าที่ต้องการเรียบร้อยแล้ว โปรแกรมจะถามจำนวนที่ต้องการซื้อ
 
 หลังจากผู้ซื้อเลือกเรียบร้อยแล้ว โปรแกรมจะทำการแสดงสรุปราคารวมของรายการสั่งซื้อทั้งหมด
@@ -21,15 +19,19 @@ if Username == "Pp" and Password == "1234":
     Yummy, Granola, Bread, Fruits, Croissant = 200, 70, 50, 100, 105
     select = int(input("Which one do you prefer(number) :"))
     if select == 1:
-        amount = int(input("How many Yummy Salad :"))
+        amount1 = int(input("How many Yummy Salad :"))
     elif select == 2:
-        amount = int(input("How many Granola Cereal :"))
+        amount2 = int(input("How many Granola Cereal :"))
     elif select == 3:
-        amount = int(input("How many Ham-Cheese Bread :"))
+        amount3 = int(input("How many Ham-Cheese Bread :"))
     elif select == 4:
-        amount = int(input("How many Fresh Fruits Set:"))
+        amount4 = int(input("How many Fresh Fruits Set:"))
     elif select == 5:
-        amount = int(input("How many Croissant :"))
+        amount5 = int(input("How many Croissant :"))
     else:
         print("Invalid Input")
+    print("A: Continue Buying")
+    print("B: Check Out My Cart")
+    choice = input("Waht do you want to do next :")
+    
     
