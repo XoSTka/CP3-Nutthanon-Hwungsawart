@@ -1,4 +1,3 @@
-item1, item2, item3, item4, item5 = "Salad", "Granola", "Bread", "Fruits", "Croissant"
 Salad, Granola, Bread, Fruits, Croissant = 200, 70, 50, 100, 105
 Username = input("Username : ")
 Password = input("Password : ")
